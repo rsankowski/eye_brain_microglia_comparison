@@ -1,0 +1,15 @@
+dir.create("data")
+dir.create(file.path("data","counts"))
+dir.create("R")
+dir.create("plots")
+
+
+library(readr)
+library(data.table)
+library(tidyverse)
+library(tools)
+library(assertthat)
+library(viridis)
+library(Seurat)
+library(Matrix)
+library(clustree)
